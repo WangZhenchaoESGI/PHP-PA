@@ -1,0 +1,287 @@
+"/":
+  controller: Pages
+  action: default
+
+"/error":
+  controller: Pages
+  action: error
+
+"/contact":
+  controller: Pages
+  action: contact
+
+"/adminContact":
+  controller: Pages
+  action: adminContact
+
+"/faqs":
+  controller: Pages
+  action: faqs
+
+"/template":
+  controller: Template
+  action: default
+
+"/plat":
+  controller: Template
+  action: plat
+
+"/template-carte":
+  controller: Pages
+  action: templateCarte
+
+"/reservation":
+  controller: Pages
+  action: reservation
+
+"/active_compte":
+  controller: Pages
+  action: activeCompte
+
+"/verification":
+  controller: Users
+  action: verification
+
+"/liste_des_utilisateurs":
+  controller: Users
+  action: default
+
+"/ajouter_un_utilisateur":
+  controller: Users
+  action: add
+
+"/enregistrer_un_utilisateur":
+  controller: Users
+  action: save
+
+"/connexion":
+  controller: Users
+  action: login
+
+"/deconnexion":
+  controller: Users
+  action: logout
+
+"/mot_de_passe_oublie":
+  controller: Users
+  action: forgetPassword
+
+"/dashboard":
+  controller: Admin
+  action: dashboard
+
+"/commandes":
+  controller: Admin
+  action: commandes
+
+"/produits":
+  controller: Produits
+  action: default
+
+"/add_produit":
+  controller: Produits
+  action: add
+
+"/save_produit":
+  controller: Produits
+  action: save
+
+"/update_produit":
+  controller: Produits
+  action: update
+
+"/delete_produit":
+  controller: Produits
+  action: delete
+
+"/enable_produit":
+  controller: Produits
+  action: enable
+
+"/design":
+  controller: ConfigurationTemplate
+  action: default
+
+"/redirectToTemplate":
+  controller: ConfigurationTemplate
+  action: redirect
+
+"/add_design":
+  controller: ConfigurationTemplate
+  action: add
+
+"/save_design":
+  controller: ConfigurationTemplate
+  action: save
+
+"/info_design":
+  controller: ConfigurationTemplate
+  action: info
+
+"/update_design":
+  controller: ConfigurationTemplate
+  action: update
+
+"/captcha":
+  controller: Captcha
+  action: default
+
+"/facebook_verify_connexion":
+  controller: Facebook
+  action: default
+
+"/facebook_callback":
+  controller: Facebook
+  action: callback
+
+"/google_verify_connexion":
+  controller: Google
+  action: default
+
+"/add_comment":
+  controller: Comment
+  action: add
+
+"/save_comment":
+  controller: Comment
+  action: save
+
+"/update_comment":
+  controller: Comment
+  action: update
+
+"/delete_comment":
+  controller: Comment
+  action: delete
+
+"/commande_add":
+  controller: Commandes
+  action: add
+
+"/commande_remove":
+  controller: Commandes
+  action: remove
+
+"/commande_empty":
+  controller: Commandes
+  action: empty
+
+"/commande_save":
+  controller: Commandes
+  action: save
+
+"/commande_success":
+  controller: Commandes
+  action: success
+
+"/commandes_client":
+  controller: Commandes
+  action: listClient
+
+"/commandes_client_detail":
+  controller: Commandes
+  action: listClientDetail
+
+"/commandes_detail":
+  controller: Admin
+  action: commandeDetail
+
+"/panier":
+  controller: Commandes
+  action: default
+
+"/panier_remove":
+  controller: Commandes
+  action: panierRemove
+
+"/auth":
+  controller: Login
+  action: default
+
+"/callback":
+  controller: Login
+  action: callback
+
+"/client":
+  controller: Pages
+  action: detail
+
+"/change_password":
+  controller: Users
+  action: changePassword
+
+"/AdminDashboard":
+  controller: SuperAdmin
+  action: dashboard
+
+"/users":
+  controller: SuperAdmin
+  action: users
+
+"/enableUser":
+  controller: SuperAdmin
+  action: enableUser
+
+"/roleUser":
+  controller: SuperAdmin
+  action: roleUser
+
+"/deleteUser":
+  controller: SuperAdmin
+  action: deleteUser
+
+"/userDetail":
+  controller: SuperAdmin
+  action: userDetail
+
+"/restaurants":
+  controller: SuperAdmin
+  action: restaurants
+
+"/enableRestaurant":
+  controller: SuperAdmin
+  action: enableRestaurant
+
+"/AdminProduits":
+  controller: SuperAdmin
+  action: allProduits
+
+"/AdminCommandes":
+  controller: SuperAdmin
+  action: allCommandes
+
+"/AdminCommentaires":
+  controller: SuperAdmin
+  action: allCommentaires
+
+"/commandes_detail_admin":
+  controller: SuperAdmin
+  action: commandeDetail
+
+"/deleteCommentaires":
+  controller: SuperAdmin
+  action: deleteCommentaires
+
+"/sitemap":
+  controller: SuperAdmin
+  action: sitemap
+
+"/forgetPassword":
+  controller: Users
+  action: forgetPassword
+
+"/forgetPasswordSend":
+  controller: Users
+  action: forgetPasswordSend
+
+"/changePWD":
+  controller: Users
+  action: changePWD
+
+"/forgetPasswordToChange":
+  controller: Users
+  action: forgetPasswordToChange
+
+"/cgu":
+  controller: Pages
+  action: cgu
